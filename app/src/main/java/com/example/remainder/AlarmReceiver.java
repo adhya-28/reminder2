@@ -30,7 +30,7 @@ String no,msg;
         SmsManager sms=SmsManager.getDefault();
         sms.sendTextMessage(no, null, msg, pi,null);
 
-        Toast.makeText(arg0, "Message Sent successfully!",
+        Toast.makeText(arg0, "Hi Success!",
                 Toast.LENGTH_LONG).show();
     }
 
